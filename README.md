@@ -58,8 +58,8 @@ Where:
 
 - Run the container with the following command to get the graphical interface:
 
-$env:DISPLAY = "<ip_address>:0.0"
-docker run -it -e DISPLAY=$env:DISPLAY -v ${PWD}:/app session20_python2.7 gridworld.py -a q -k 10 -v -d 0.8 -r -0.3
+        $env:DISPLAY = "<ip_address>:0.0"
+        docker run -it -e DISPLAY=$env:DISPLAY -v ${PWD}:/app session20_python2.7 gridworld.py -a q -k 10 -v -d 0.8 -r -0.3
 
 - Make sure to install vcxsrv to get the graphical interface.
 
